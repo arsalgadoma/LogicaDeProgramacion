@@ -9,9 +9,8 @@ print("Bienvenido a tu juevo de Pierda, Papel o Tijeras")
 print("1. Piedra")
 print("2. Papel")
 print("3. Tijera")
-OP_JUGADDOR=input("Elige una opción:")
+OP_JUGADDOR=int(input("Elige una opción:"))
 
 #Eleccion de computadora
 OP_COMP=randint(1, 3)
-print ("La opcion de la computadora es: ", OP_COMP)
-
+print ("La opcion de la computadora es:", OP_COMP)
