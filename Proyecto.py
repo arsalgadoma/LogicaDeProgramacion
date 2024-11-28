@@ -35,11 +35,11 @@ while True:
     #Mostrar resultado
 
     if  OP_JUGADDOR == OP_COMP:
-      print ("Empate")
+      print ("\n\t>>> EMPATE <<<")
     elif (OP_JUGADDOR == 1 and OP_COMP == 3) or (OP_JUGADDOR == 2 and OP_COMP == 1) or (OP_JUGADDOR == 3 and OP_COMP == 2):
-      print ("Ganaste")
+      print ("\n\t>>> GANASTE <<<")
     elif (OP_JUGADDOR == 1 and OP_COMP == 2) or (OP_JUGADDOR == 2 and OP_COMP == 3) or (OP_JUGADDOR == 3 and OP_COMP == 1):
-      print ("Perdiste")    
+      print ("\n\t>>> PERDISTE <<<")    
     
     #Preguntar si desea continuar con el juego
     respuesta = input("\n¿Quieres seguir jugando? (s/n): ").lower()
