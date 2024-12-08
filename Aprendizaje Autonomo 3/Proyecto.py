@@ -40,23 +40,9 @@ while True:
       print ("\n\t>>> GANASTE <<<")
     elif (OP_JUGADDOR == 1 and OP_COMP == 2) or (OP_JUGADDOR == 2 and OP_COMP == 3) or (OP_JUGADDOR == 3 and OP_COMP == 1):
       print ("\n\t>>> PERDISTE <<<")    
-    
-    #Preguntar si desea continuar con el juego
-    respuesta = input("\n¿Quieres seguir jugando? (s/n): ").lower()
-    if respuesta != "s" and respuesta != "Si" and respuesta != "si":
-        print("Saliendo del programa...")
-        break # Salir del bucle y terminar el programa
   
   elif OP_JUGADDOR == 4:
     print ("Gracias por jugar")
     break # Salir del bucle y terminar el programa
   else:
     print("Opción incorrecta. Por favor, elige una opción ente 1- 3.")
-
-    #Comparar resulados
-    if  OP_JUGADDOR == OP_COMP:
-      print ("Empate")
-    elif (OP_JUGADDOR == 1 & OP_COMP == 3) or (OP_JUGADDOR == 2 & OP_COMP == 1) or (OP_JUGADDOR == 3 & OP_COMP == 2):
-      print ("Ganaste")
-    elif (OP_JUGADDOR == 1 & OP_COMP == 2) or (OP_JUGADDOR == 2 & OP_COMP == 3) or (OP_JUGADDOR == 3 & OP_COMP == 1):
-      print ("Perdiste")
