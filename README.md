@@ -73,4 +73,3 @@ def jugar():
 
 # Iniciar el juego
 jugar()
-
