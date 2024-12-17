@@ -61,7 +61,7 @@ def jugar():
 
             # Preguntar si desea continuar
             respuesta = input("\n¿Quieres seguir jugando? (s/n): ")
-            if respuesta not in ["s", "si", "SI", "Si"]:
+            if respuesta not in ["s", "S", "si", "SI", "Si"]:
                 print("Saliendo del programa...")
                 break  # Salir del bucle y terminar el programa
 
