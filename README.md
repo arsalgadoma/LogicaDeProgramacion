@@ -1,6 +1,14 @@
+Nombre: Arley Ivan Salgado Mañay
+
+Objetivos: 
+- Desarrollar el juego de Piedra papel o tijeras en lenguaje de programación Phyton
+- Utilizar los temas aprendidos en clase para el desarrollo del proyecto
+- Demostrar los conocimientos adquiridos por medio del desarrollo dle presente proyecto
+
+
 from random import choice
 
-#Mensaje de Binevanida, en esta función podemos encontraron el menú de opciones a escoger para poder llevar a cabo el juego de piedra papel o tijeras
+#Mensaje de Bienvenida, en esta función podemos encontraron el menú de opciones a escoger para poder llevar a cabo el juego de piedra papel o tijeras
 
 def mostrar_menu():
     print("\n***Bienvenido a tu juego de Piedra, Papel o Tijeras***")
