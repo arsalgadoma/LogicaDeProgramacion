@@ -5,7 +5,7 @@ Objetivos:
 - Utilizar los temas aprendidos en clase para el desarrollo del proyecto
 - Demostrar los conocimientos adquiridos por medio del desarrollo dle presente proyecto
 
-
+Código:
 from random import choice
 
 #Mensaje de Bienvenida, en esta función podemos encontraron el menú de opciones a escoger para poder llevar a cabo el juego de piedra papel o tijeras
