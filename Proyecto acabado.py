@@ -34,7 +34,9 @@ def mostrar_eleccion_jugador(OP_JUGADOR):
 def determinar_resultado(OP_JUGADOR, OP_COMP):
   if OP_JUGADOR == OP_COMP:
     return "\n\t>>> EMPATE <<<"
-  elif (OP_JUGADOR == "1" and OP_COMP == "3") or (OP_JUGADOR == "2" and OP_COMP == "1") or (OP_JUGADOR == "3" and OP_COMP == "2"):
+  elif (OP_JUGADOR == "1" and OP_COMP == "3") or \
+    (OP_JUGADOR == "2" and OP_COMP == "1") or \
+    (OP_JUGADOR == "3" and OP_COMP == "2"):
     return "\n\t>>> GANASTE <<<"
   else:
     return "\n\t>>> PERDISTE <<<"
