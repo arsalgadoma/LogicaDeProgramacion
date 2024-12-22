@@ -1,6 +1,7 @@
 from random import choice
 
 #Mensaje de Binevanida, en esta función podemos encontraron el menú de opciones a escoger para poder llevar a cabo el juego de piedra papel o tijeras
+
 def mostrar_menu():
     print("\n***Bienvenido a tu juego de Piedra, Papel o Tijeras***")
     print("1. Piedra")
