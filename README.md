@@ -9,11 +9,15 @@ def mostrar_menu():
     print("3. Tijera")
     print("4. Salir")
 
+
 #Eleccion de computadora, en esta sección la computadora va a tomar un valor randomico entre 1 y 3.
+
 def eleccion_computadora():
     return choice(["1", "2", "3"])
 
+
 #Mostrar eleccion del computadora, este apartado permite que el usurio tenga conocimiento de cual fue la opción escogida por el usuario, dentro de esta función permite que el código pase la opcion de 1, 2 o 3 a piedra papel o tijeras
+
 def mostrar_eleccion_computadora(OP_COMP):
     if OP_COMP == "1":
         print("La opción de la computadora es: Piedra")
@@ -22,7 +26,9 @@ def mostrar_eleccion_computadora(OP_COMP):
     else:
         print("La opción de la computadora es: Tijera")
 
+
 #Mostrar eleccion del jugado, esta función el código muestra la oopcion ingresada por el usuario (1, 2, 3) pero como la opción de piedra, papel o tijera
+
 def mostrar_eleccion_jugador(OP_JUGADOR):
     if OP_JUGADOR == "1":
         print("Tu elección fue: Piedra")
@@ -31,7 +37,9 @@ def mostrar_eleccion_jugador(OP_JUGADOR):
     else:
         print("Tu elección fue: Tijera")
 
+
 #Realizar comparación, mediante el condicioanl if se va a realizar la comparación de la opción del computador con la del usuario para saber quien fue el ganador o perdedor, o si fue un empate
+
 def determinar_resultado(OP_JUGADOR, OP_COMP):
     if OP_JUGADOR == OP_COMP:
         return "\n\t>>> EMPATE <<<"
@@ -40,7 +48,9 @@ def determinar_resultado(OP_JUGADOR, OP_COMP):
     else:
         return "\n\t>>> PERDISTE <<<"
 
+
 #Iniciar juego, se tiene el bucle principal en donde se tiene el desarrollo del juego
+
 def jugar():
     while True:
         mostrar_menu() #Se muestra el menú
